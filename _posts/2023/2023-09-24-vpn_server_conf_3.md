@@ -24,11 +24,11 @@ image:
 
 
 ## 전체 글 목록
-1. [VPN용 VM 서버 구축](https://wakenhole.github.io/2023/vpn_server_conf_1/)
-2. [VPN 서버 보안 설정](https://wakenhole.github.io/2023/vpn_server_conf_2/)
-3. [X-UI 설치 및 설정](https://wakenhole.github.io/2023/vpn_server_conf_3/)
-4. [Marzban VPN 설치](https://wakenhole.github.io/2025/new_vpn_server_conf_1/)
-5. [Marzban VPN 설정](https://wakenhole.github.io/2025/new_vpn_server_conf_2/)
+1. [VPN용 VM 서버 구축](https://wakenhole-blog.github.io/2023/vpn_server_conf_1/)
+2. [VPN 서버 보안 설정](https://wakenhole-blog.github.io/2023/vpn_server_conf_2/)
+3. [X-UI 설치 및 설정](https://wakenhole-blog.github.io/2023/vpn_server_conf_3/)
+4. [Marzban VPN 설치](https://wakenhole-blog.github.io/2025/new_vpn_server_conf_1/)
+5. [Marzban VPN 설정](https://wakenhole-blog.github.io/2025/new_vpn_server_conf_2/)
 
 
 ## Reference
@@ -57,9 +57,9 @@ bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 아래와 같이 V2Ray GUI 관리자 페이지의 설정을 하자.
 1. 계정명 (임의)
 2. 비밀번호 (임의)
-3. 포트 번호 ([1편](https://wakenhole.github.io/vpn/vpn_server_conf_1/)에서 설정한 포트 번호)
+3. 포트 번호 ([1편](https://wakenhole-blog.github.io/vpn/vpn_server_conf_1/)에서 설정한 포트 번호)
 
-![image](https://github.com/wakenhole/wakenhole.github.io/assets/2586880/2c6d5e3c-1d82-4470-a2aa-c4b6cbd1d49a)
+![image](https://github.com/wakenhole/wakenhole-blog.github.io/assets/2586880/2c6d5e3c-1d82-4470-a2aa-c4b6cbd1d49a)
 
 
 ### X-UI 설정
@@ -95,7 +95,7 @@ x-ui start
 > http://ktvpn.duckdns.org:5000/
 
 
-![image](https://github.com/wakenhole/wakenhole.github.io/assets/2586880/c5d7875b-3314-4d3d-aa24-2a16d7853529)
+![image](https://github.com/wakenhole/wakenhole-blog.github.io/assets/2586880/c5d7875b-3314-4d3d-aa24-2a16d7853529)
 
 
 
@@ -106,17 +106,17 @@ x-ui start
 1. 상태
 2. 목록 (VPN 목록)
 3. 설정
-![image](https://github.com/wakenhole/wakenhole.github.io/assets/2586880/c3aba13a-e9fe-4319-973e-92f17afab6cc)
+![image](https://github.com/wakenhole/wakenhole-blog.github.io/assets/2586880/c3aba13a-e9fe-4319-973e-92f17afab6cc)
 
 
 ### X-UI GUI SSL 설정
 본 관리자 화면 및 VPN을 암호화 설정하자. (중국 황금방패로 부터 지켜내기 위해)
 
-아래 화면과 같이 [2편](https://wakenhole.github.io/vpn/vpn_server_conf_2/)에서 생성한 SSL Certification File을 설정한다.
+아래 화면과 같이 [2편](https://wakenhole-blog.github.io/vpn/vpn_server_conf_2/)에서 생성한 SSL Certification File을 설정한다.
 
 마지막에 保存XX를 눌러서 저장한다. 
 
-![image](https://github.com/wakenhole/wakenhole.github.io/assets/2586880/7f78a061-c248-429b-8c1a-e3782f98d8e0)
+![image](https://github.com/wakenhole/wakenhole-blog.github.io/assets/2586880/7f78a061-c248-429b-8c1a-e3782f98d8e0)
 
 ### X-UI 재시작
 설정을 적용하기 위해 x-ui를 재시작 하자.
@@ -134,7 +134,7 @@ x-ui restart
 ## X-UI를 활용한 V2Ray 설정
 
 아래 VPN 목록 화면으로 들어가서 **+** 버튼을 누르자.
-![image](https://github.com/wakenhole/wakenhole.github.io/assets/2586880/b4b9d958-0896-4a44-b4dd-88cb73fe2295)
+![image](https://github.com/wakenhole/wakenhole-blog.github.io/assets/2586880/b4b9d958-0896-4a44-b4dd-88cb73fe2295)
 
 다양한 프로토콜 조합으로 VPN을 만들 수 있지만, 일단 본 강좌에서는 두 가지만 설명하도록 한다. 
 1. VMESS
@@ -147,10 +147,10 @@ x-ui restart
 아래와 같이 설정한다. 
 * remark: 이름 (임의)
 * protocol: vmess
-* 端口(port): 3000 ([1편](https://wakenhole.github.io/vpn/vpn_server_conf_1/)에서 설정한 포트 번호)
+* 端口(port): 3000 ([1편](https://wakenhole-blog.github.io/vpn/vpn_server_conf_1/)에서 설정한 포트 번호)
 
 
-![image](https://github.com/wakenhole/wakenhole.github.io/assets/2586880/335bea59-f5c4-4e69-804c-47b4e3412ec7)
+![image](https://github.com/wakenhole/wakenhole-blog.github.io/assets/2586880/335bea59-f5c4-4e69-804c-47b4e3412ec7)
 
 오른쪽 아래의 추가 (X加) 버튼을 눌러서 추가하자.
 
@@ -161,12 +161,12 @@ x-ui restart
 아래와 같이 설정한다. 
 * remark: 이름 (임의)
 * protocol: vless
-* 端口 (Port): 3001 ([1편](https://wakenhole.github.io/vpn/vpn_server_conf_1/)에서 설정한 포트 번호)
+* 端口 (Port): 3001 ([1편](https://wakenhole-blog.github.io/vpn/vpn_server_conf_1/)에서 설정한 포트 번호)
 * 域名 (Domain name): ktvpn.duckdns.org
 * 公钥文件路径 (Public key): /root/cert.crt
 * 密钥文件路径 (Private key): /root/private.key
 
-![image](https://github.com/wakenhole/wakenhole.github.io/assets/2586880/9f264f54-aba8-40f2-839b-3bd137165815)
+![image](https://github.com/wakenhole/wakenhole-blog.github.io/assets/2586880/9f264f54-aba8-40f2-839b-3bd137165815)
 
 오른쪽 아래의 추가 (X加) 버튼을 눌러서 추가하자.
 
@@ -174,4 +174,4 @@ x-ui restart
 
 아래와 같이 목록이 생성되었으면, V2Ray 서버 설정이 완료 된것이다.
 
-![image](https://github.com/wakenhole/wakenhole.github.io/assets/2586880/23eaec31-1b48-4b6b-a148-f2c204cdfd81)
+![image](https://github.com/wakenhole/wakenhole-blog.github.io/assets/2586880/23eaec31-1b48-4b6b-a148-f2c204cdfd81)

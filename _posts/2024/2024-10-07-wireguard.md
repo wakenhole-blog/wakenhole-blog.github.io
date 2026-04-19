@@ -20,11 +20,11 @@ image:
 ## 전체 글 목록
 
 ## 전체 글 목록
-1. [VPN용 VM 서버 구축](https://wakenhole.github.io/2023/vpn_server_conf_1/)
-2. [VPN 서버 보안 설정](https://wakenhole.github.io/2023/vpn_server_conf_2/)
-3. [X-UI 설치 및 설정](https://wakenhole.github.io/2023/vpn_server_conf_3/)
-4. [Marzban VPN 설치](https://wakenhole.github.io/2025/new_vpn_server_conf_1/)
-5. [Marzban VPN 설정](https://wakenhole.github.io/2025/new_vpn_server_conf_2/)
+1. [VPN용 VM 서버 구축](https://wakenhole-blog.github.io/2023/vpn_server_conf_1/)
+2. [VPN 서버 보안 설정](https://wakenhole-blog.github.io/2023/vpn_server_conf_2/)
+3. [X-UI 설치 및 설정](https://wakenhole-blog.github.io/2023/vpn_server_conf_3/)
+4. [Marzban VPN 설치](https://wakenhole-blog.github.io/2025/new_vpn_server_conf_1/)
+5. [Marzban VPN 설정](https://wakenhole-blog.github.io/2025/new_vpn_server_conf_2/)
 
 ## V2Ray 이외 기타 VPN 
 
@@ -51,7 +51,7 @@ chmod +x wireguard-install.sh
 ```
 
 위와 같이 Script를 실행하고나면, Server IP 및 Port를 설정하게 된다. 
-KT Cloud(혹은 본인 서버)의 IP 주소를 입력하고, Port도 반드시 Server에서 접근 허용이 되어 있어야 한다. [포트 설정](https://wakenhole.github.io/vpn/vpn_server_conf_1/)
+KT Cloud(혹은 본인 서버)의 IP 주소를 입력하고, Port도 반드시 Server에서 접근 허용이 되어 있어야 한다. [포트 설정](https://wakenhole-blog.github.io/vpn/vpn_server_conf_1/)
 Wireguard의 경우 UDP를 사용하기 때문에 UDP를 open 시켜줘야 한다. 
 
 V2Ray와 다른 점은 사용자 별로 매번 추가해 줘야 한다. 
