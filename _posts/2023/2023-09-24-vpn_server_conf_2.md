@@ -24,11 +24,11 @@ image:
 
 
 ## 전체 글 목록
-1. [VPN용 VM 서버 구축](https://wakenhole-blog.github.io/2023/vpn_server_conf_1/)
-2. [VPN 서버 보안 설정](https://wakenhole-blog.github.io/2023/vpn_server_conf_2/)
-3. [X-UI 설치 및 설정](https://wakenhole-blog.github.io/2023/vpn_server_conf_3/)
-4. [Marzban VPN 설치](https://wakenhole-blog.github.io/2025/new_vpn_server_conf_1/)
-5. [Marzban VPN 설정](https://wakenhole-blog.github.io/2025/new_vpn_server_conf_2/)
+1. [VPN용 VM 서버 구축](/2023/vpn_server_conf_1/)
+2. [VPN 서버 보안 설정](/2023/vpn_server_conf_2/)
+3. [X-UI 설치 및 설정](/2023/vpn_server_conf_3/)
+4. [Marzban VPN 설치](/2025/new_vpn_server_conf_1/)
+5. [Marzban VPN 설정](/2025/new_vpn_server_conf_2/)
 
 
 ## Reference
@@ -37,7 +37,7 @@ image:
 3. [중국 외노자를 위한 VPS에 VPN 구축기 (V2ray with X-UI 제어콘솔)](https://www.clien.net/service/board/lecture/17799473)
 
 ## 서버 업데이트
-[1편](https://wakenhole-blog.github.io/vpn/vpn_server_conf_1/)을 통해서 서버가 준비되면, 서버를 업데이트 하자. 
+[1편](/vpn/vpn_server_conf_1/)을 통해서 서버가 준비되면, 서버를 업데이트 하자. 
 
 ```sh
 apt update && apt upgrade -y
@@ -55,7 +55,7 @@ apt install curl socat -y
 
 
 ## 서버 Password 설정
-사실 [1편](https://wakenhole-blog.github.io/vpn/vpn_server_conf_1/)에서 준비한 서버를 private키로만 접속을 하는것이 가장 안전하다. 
+사실 [1편](/vpn/vpn_server_conf_1/)에서 준비한 서버를 private키로만 접속을 하는것이 가장 안전하다. 
 
 KT의 경우 default가 password로 접속이 가능하기 때문에, 아래 명령어를 통해서 복잡한 비밀번호로 변경할 수 있다.
 

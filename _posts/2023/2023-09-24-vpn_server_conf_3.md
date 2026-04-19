@@ -24,11 +24,11 @@ image:
 
 
 ## 전체 글 목록
-1. [VPN용 VM 서버 구축](https://wakenhole-blog.github.io/2023/vpn_server_conf_1/)
-2. [VPN 서버 보안 설정](https://wakenhole-blog.github.io/2023/vpn_server_conf_2/)
-3. [X-UI 설치 및 설정](https://wakenhole-blog.github.io/2023/vpn_server_conf_3/)
-4. [Marzban VPN 설치](https://wakenhole-blog.github.io/2025/new_vpn_server_conf_1/)
-5. [Marzban VPN 설정](https://wakenhole-blog.github.io/2025/new_vpn_server_conf_2/)
+1. [VPN용 VM 서버 구축](/2023/vpn_server_conf_1/)
+2. [VPN 서버 보안 설정](/2023/vpn_server_conf_2/)
+3. [X-UI 설치 및 설정](/2023/vpn_server_conf_3/)
+4. [Marzban VPN 설치](/2025/new_vpn_server_conf_1/)
+5. [Marzban VPN 설정](/2025/new_vpn_server_conf_2/)
 
 
 ## Reference
@@ -57,7 +57,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 아래와 같이 V2Ray GUI 관리자 페이지의 설정을 하자.
 1. 계정명 (임의)
 2. 비밀번호 (임의)
-3. 포트 번호 ([1편](https://wakenhole-blog.github.io/vpn/vpn_server_conf_1/)에서 설정한 포트 번호)
+3. 포트 번호 ([1편](/vpn/vpn_server_conf_1/)에서 설정한 포트 번호)
 
 ![image](https://github.com/wakenhole/wakenhole-blog.github.io/assets/2586880/2c6d5e3c-1d82-4470-a2aa-c4b6cbd1d49a)
 
@@ -112,7 +112,7 @@ x-ui start
 ### X-UI GUI SSL 설정
 본 관리자 화면 및 VPN을 암호화 설정하자. (중국 황금방패로 부터 지켜내기 위해)
 
-아래 화면과 같이 [2편](https://wakenhole-blog.github.io/vpn/vpn_server_conf_2/)에서 생성한 SSL Certification File을 설정한다.
+아래 화면과 같이 [2편](/vpn/vpn_server_conf_2/)에서 생성한 SSL Certification File을 설정한다.
 
 마지막에 保存XX를 눌러서 저장한다. 
 
@@ -147,7 +147,7 @@ x-ui restart
 아래와 같이 설정한다. 
 * remark: 이름 (임의)
 * protocol: vmess
-* 端口(port): 3000 ([1편](https://wakenhole-blog.github.io/vpn/vpn_server_conf_1/)에서 설정한 포트 번호)
+* 端口(port): 3000 ([1편](/vpn/vpn_server_conf_1/)에서 설정한 포트 번호)
 
 
 ![image](https://github.com/wakenhole/wakenhole-blog.github.io/assets/2586880/335bea59-f5c4-4e69-804c-47b4e3412ec7)
@@ -161,7 +161,7 @@ x-ui restart
 아래와 같이 설정한다. 
 * remark: 이름 (임의)
 * protocol: vless
-* 端口 (Port): 3001 ([1편](https://wakenhole-blog.github.io/vpn/vpn_server_conf_1/)에서 설정한 포트 번호)
+* 端口 (Port): 3001 ([1편](/vpn/vpn_server_conf_1/)에서 설정한 포트 번호)
 * 域名 (Domain name): ktvpn.duckdns.org
 * 公钥文件路径 (Public key): /root/cert.crt
 * 密钥文件路径 (Private key): /root/private.key

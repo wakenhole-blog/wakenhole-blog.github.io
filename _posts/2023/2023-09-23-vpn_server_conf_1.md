@@ -25,11 +25,11 @@ image:
 {% include ad-inpost.html %}
 
 ## 전체 글 목록
-1. [VPN용 VM 서버 구축](https://wakenhole-blog.github.io/2023/vpn_server_conf_1/)
-2. [VPN 서버 보안 설정](https://wakenhole-blog.github.io/2023/vpn_server_conf_2/)
-3. [X-UI 설치 및 설정](https://wakenhole-blog.github.io/2023/vpn_server_conf_3/)
-4. [Marzban VPN 설치](https://wakenhole-blog.github.io/2025/new_vpn_server_conf_1/)
-5. [Marzban VPN 설정](https://wakenhole-blog.github.io/2025/new_vpn_server_conf_2/)
+1. [VPN용 VM 서버 구축](/2023/vpn_server_conf_1/)
+2. [VPN 서버 보안 설정](/2023/vpn_server_conf_2/)
+3. [X-UI 설치 및 설정](/2023/vpn_server_conf_3/)
+4. [Marzban VPN 설치](/2025/new_vpn_server_conf_1/)
+5. [Marzban VPN 설정](/2025/new_vpn_server_conf_2/)
 
 ## Reference
 1. [V2Ray](https://www.v2ray.com/)
