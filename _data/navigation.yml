@@ -1,0 +1,23 @@
+# main links
+main:
+  - title: "Categories"
+    url: /categories-grid/
+  - title: "Tags"
+    url: /tags-grid/
+  - title: "Archives"
+    url: /year-archive-grid/
+  - title: "Map"
+    url: /sitemap/
+  - title: "About"
+    url: /about/
+
+# sidebar-sample:
+#   - title: "Parent Page A"
+#     children:
+#       - title: "Child Page A1"
+#         url: /
+#       - title: "Child Page A2"
+#   - title: "Parent Page B"
+#     children:
+#       - title: "Child Page B1"
+#         url: /
