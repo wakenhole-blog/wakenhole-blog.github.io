@@ -27,22 +27,24 @@ image:
 
 회원가입이 필요 없어 바로 사용할 수 있는 사이트 목록입니다.
 
-| 순위 | 사이트명 | 주소 | 평가 |
-|:---:|:---|:---|:---|
-| 1 | 토렌트좋다 | [torrentzota180.com](https://torrentzota180.com) | ★★ TOP10 |
-| 2 | 토렌트쓱 | [torrentssg8.com](https://torrentssg8.com) | ★★ 일/주/월 베스트 |
-| 3 | 토렌트큐큐 | [torrentqq416.com](https://torrentqq416.com) | ★★ 주간 베스트 |
-| 4 | 토렌트탑 | [torrenttop201.com](https://torrenttop201.com) | ★★ TOP15 |
-| 5 | 토렌트파이 | [torrentpi150.com](https://torrentpi150.com) | ★★ 일/주/월 베스트 |
-| 6 | 토렌트썸 | [torrentsome242.com](https://torrentsome242.com) | ★★ TOP10 |
-| 7 | 토렌트업 | [torrentup87.com](https://torrentup87.com) | ★★ |
-| 8 | 토렌트알지 | [torrentrj249.com](https://torrentrj249.com) | ★★ |
-| 9 | 토렌트와이 | [torrentwhy172.xyz](https://torrentwhy172.xyz) | ★★ |
-| 10 | 토렌트팁 | [torrenttip223.top](https://torrenttip223.top) | ★★ TOP10 |
-| 11 | 토렌트밤 | [torrentbam227.top](https://torrentbam227.top) | ★★ 인기 |
-| 12 | 토렌트티티 | [torrenttt228.top](https://torrenttt228.top) | ★★ 인기 |
-| 13 | 토렌트씨 | [torrentsee332.com](https://torrentsee332.com) | ★★ TOP10 |
-| 14 | 토렌트봇 | [torrentbot238.site](https://torrentbot238.site) | ★★ |
+> 평가 기준: 콘텐츠 큐레이션 수준(일/주/월 베스트 > 주간 베스트 > TOP랭킹 > 인기), 도메인 안정성(.com > .top/.xyz/.site)을 종합해 재평가했습니다.
+
+| 순위 | 사이트명 | 주소 | 별점 | 평가 요약 |
+|:---:|:---|:---|:---:|:---|
+| 1 | 토렌트쓱 | [torrentssg8.com](https://torrentssg8.com) | ★★★★★ | 일/주/월 베스트 + 안정적 .com |
+| 2 | 토렌트파이 | [torrentpi150.com](https://torrentpi150.com) | ★★★★★ | 일/주/월 베스트 + 안정적 .com |
+| 3 | 토렌트좋다 | [torrentzota180.com](https://torrentzota180.com) | ★★★★ | TOP10 + .com, 오랜 인지도 |
+| 4 | 토렌트큐큐 | [torrentqq416.com](https://torrentqq416.com) | ★★★★ | 주간 베스트 + .com |
+| 5 | 토렌트탑 | [torrenttop201.com](https://torrenttop201.com) | ★★★★ | TOP15 + .com |
+| 6 | 토렌트썸 | [torrentsome242.com](https://torrentsome242.com) | ★★★★ | TOP10 + .com |
+| 7 | 토렌트씨 | [torrentsee332.com](https://torrentsee332.com) | ★★★ | TOP10 + .com |
+| 8 | 토렌트팁 | [torrenttip223.top](https://torrenttip223.top) | ★★★ | TOP10, .top 도메인 |
+| 9 | 토렌트밤 | [torrentbam227.top](https://torrentbam227.top) | ★★★ | 인기, .top 도메인 |
+| 10 | 토렌트티티 | [torrenttt228.top](https://torrenttt228.top) | ★★★ | 인기, .top 도메인 |
+| 11 | 토렌트업 | [torrentup87.com](https://torrentup87.com) | ★★ | 기본 기능, .com |
+| 12 | 토렌트알지 | [torrentrj249.com](https://torrentrj249.com) | ★★ | 기본 기능, .com |
+| 13 | 토렌트와이 | [torrentwhy172.xyz](https://torrentwhy172.xyz) | ★ | .xyz 도메인, 안정성 낮음 |
+| 14 | 토렌트봇 | [torrentbot238.site](https://torrentbot238.site) | ★ | .site 도메인, 안정성 낮음 |
 
 ---
 
